@@ -1,0 +1,144 @@
+{%extends "nav.html"%}
+
+{%block body%}
+<section class="searchSection">
+  <div class="pac-card" id="pac-card">
+    <div id="pac-container">
+      <form action="#" method="post">
+        <div id="enterAddress">Where to today? 🧭</div>
+        <input id="pac-input" type="text" placeholder="🔍 Enter an address..." name="address" value="{{addressSave}}">
+
+        <div>
+          <input id="locationTypeInput" name="place" list="place-tags" placeholder="🔍 Select a Location Type..." value="{{typeSave}}">
+          <datalist id="place-tags">
+            <option value="Accounting"></option>
+            <option value="Airport"></option>
+            <option value="Amusement Park"></option>
+            <option value="Aquarium"></option>
+            <option value="Art Gallery"></option>
+            <option value="Atm"></option>
+            <option value="Bakery"></option>
+            <option value="Bank"></option>
+            <option value="Bar"></option>
+            <option value="Beauty Salon"></option>
+            <option value="Bicycle Store"></option>
+            <option value="Book Store"></option>
+            <option value="Bowling Alley"></option>
+            <option value="Bus Station"></option>
+            <option value="Cafe"></option>
+            <option value="Campground"></option>
+            <option value="Car Dealer"></option>
+            <option value="Car Rental"></option>
+            <option value="Car Repair"></option>
+            <option value="Car Wash"></option>
+            <option value="Casino"></option>
+            <option value="Cemetery"></option>
+            <option value="Church"></option>
+            <option value="City Hall"></option>
+            <option value="Clothing Store"></option>
+            <option value="Convenience Store"></option>
+            <option value="Courthouse"></option>
+            <option value="Dentist"></option>
+            <option value="Department Store"></option>
+            <option value="Doctor"></option>
+            <option value="Drugstore"></option>
+            <option value="Electrician"></option>
+            <option value="Electronics Store"></option>
+            <option value="Embassy"></option>
+            <option value="Fire Station"></option>
+            <option value="Florist"></option>
+            <option value="Funeral Home"></option>
+            <option value="Furniture Store"></option>
+            <option value="Gas Station"></option>
+            <option value="Gym"></option>
+            <option value="Hair Care"></option>
+            <option value="Hardware Store"></option>
+            <option value="Hindu Temple"></option>
+            <option value="Home Goods Store"></option>
+            <option value="Hospital"></option>
+            <option value="Insurance Agency"></option>
+            <option value="Jewelry Store"></option>
+            <option value="Laundry"></option>
+            <option value="Lawyer"></option>
+            <option value="Library"></option>
+            <option value="Light Rail Station"></option>
+            <option value="Liquor Store"></option>
+            <option value="Local Government Office"></option>
+            <option value="Locksmith"></option>
+            <option value="Lodging"></option>
+            <option value="Meal Delivery"></option>
+            <option value="Meal Takeaway"></option>
+            <option value="Mosque"></option>
+            <option value="Movie Rental"></option>
+            <option value="Movie Theater"></option>
+            <option value="Moving Company"></option>
+            <option value="Museum"></option>
+            <option value="Night Club"></option>
+            <option value="Painter"></option>
+            <option value="Park"></option>
+            <option value="Parking"></option>
+            <option value="Pet Store"></option>
+            <option value="Pharmacy"></option>
+            <option value="Physiotherapist"></option>
+            <option value="Plumber"></option>
+            <option value="Police"></option>
+            <option value="Post Office"></option>
+            <option value="Primary School"></option>
+            <option value="Real estate Agency"></option>
+            <option value="Restaurant"></option>
+            <option value="Roofing Contractor"></option>
+            <option value="Rv Park"></option>
+            <option value="School"></option>
+            <option value="Secondary School"></option>
+            <option value="Shoe Store"></option>
+            <option value="Shopping Mall"></option>
+            <option value="Spa"></option>
+            <option value="Stadium"></option>
+            <option value="Storage"></option>
+            <option value="Store"></option>
+            <option value="Subway Station"></option>
+            <option value="Supermarket"></option>
+            <option value="Synagogue"></option>
+            <option value="Taxi Stand"></option>
+            <option value="Tourist Attraction"></option>
+            <option value="Train Station"></option>
+            <option value="Transit Station"></option>
+            <option value="Travel Agency"></option>
+            <option value="University"></option>
+            <option value="Veterinary Care"></option>
+            <option value="Zoo"></option>
+          </datalist>
+        </div>
+
+        <div class="slidecontainer">
+          <input type="range" min="1" max="20000" value={{radiusSave}} class="slider" id="radius" name="radius">
+          <p>Radius: <span id="meters"></span></p>
+        </div>
+
+        <script>
+          var slider = document.getElementById("radius");
+          var output = document.getElementById("meters");
+          output.innerHTML = slider.value / 1000 + "km";
+
+          slider.oninput = function () {
+            output.innerHTML = this.value / 1000 + "km";
+          }
+        </script>
+
+        <div class="scroll-button">
+          <input type="submit" value="Explore">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="showcase">
+  <div class="container" id="container">
+    <div id="wrapper">
+
+    </div>
+  </div>
+</section>
+
+{%endblock%}

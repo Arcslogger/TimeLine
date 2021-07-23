@@ -1,0 +1,44 @@
+{%extends "nav.html"%}
+
+{%block body%}
+
+<section class="home" id="home">
+  <div class="max-width">
+    <div class="about-content-box" id="about-content-box">
+      <section class="synopsis">
+        <div class="max-width">
+            <h2 class="title">About TimeLine</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="https://media.discordapp.net/attachments/459383149068288032/868504430138495037/COVID-Lineup-greenseas.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Why TimeLine?</div>
+                    <p>As quarantine finally begins to lift, public spaces now seem to be home to comically long lineups. Our goal with TimeLine is to help others explore places efficiently and safely, ensuring that users can avoid the potentially unhygienic bustle of crowds and lineups.</p>
+                    <br>
+                    <p>TimeLine takes crowd-sourced foot traffic data and specifically filters out attractions based on their current "busyness" levels. Users can further choose the type of attractions (restaurants, museums, shops, etc.), a radius to select from, and any particular level of "busyness." We display this data in a fluid, beautiful web app built from the ground up for expandability and modularity.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <section class="how">
+        <div class="max-width">
+            <div class="how-content">
+                <div class="column left">
+                    <div class= "forgotPara">Though initially inspired by COVID, our app is designed to have lasting impacts far into the future. TimeLine adds another dimension to trip planning, one where adventures are also planned around foot traffic and crowds. We hope to inspire users to explore new, local businesses while making lines a permanent thing of the past. Our data is also dynamically updated as time passes, meaning TimeLine will never lose its relevance.</p></div>
+                    <br>
+                    <div class="text">How Does it Work?</div>
+                        <p>Our backend retrieves analyzed information about the popularity of locations at any given time using Google's Places and Geocoding APIs. Our site dynamically queries for this data by using Flask as a web framework and displays it in a grid layout. The majority of our project is in Python, while front-end elements include HTML, CSS, and some JS.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="extension" id="home"></section>
+
+{%endblock%}
