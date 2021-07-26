@@ -8,8 +8,8 @@ Our goal is to motivate civilians to safely explore new places, without the unhy
 
 TimeLine takes crowd-sourced foot traffic data and specifically filters out attractions based on their current "busyness" levels. Users enter their location, choose the type of attraction (restaurants, museums, shops, etc.), and a radius to select from. We display only currently open locations and their “busyness” in a fluid, beautiful web app built from the ground up for expandability and modularity.
 
-Though initially inspired by COVID-19 and physical distancing, our app is designed to have lasting impacts far into the future. TimeLine adds another dimension to trip planning, one where adventures are also planned around local foot traffic and crowds. We hope to inspire users to explore new, local businesses while making lines a permanent thing of the past. 
+Though initially inspired by COVID-19 and physical distancing, our app is designed to have lasting impacts far into the future. TimeLine adds another dimension to trip planning, where adventures are also planned around local foot traffic and crowds. We hope to inspire users to explore new, local businesses while making lines a permanent thing of the past. 
 
 Our data is also dynamically updated to show current data as time passes, meaning TimeLine will never lose its relevance.
 
-
+This project was developed in 48 hours for Explore Hack 2021 by 4 graduating high school students: Wilbur Zhang, Ivan Yu, Joshua Kwong, and Nicholas Lin.
