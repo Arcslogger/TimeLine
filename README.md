@@ -1,6 +1,6 @@
 # 🧭 TimeLine: Waiting has never been faster or safer.
 ---
-<img src="static/images/main banner.png" style="float: center; margin-bottom: 10px"/>
+<img src="static/images/main banner winner.png" style="float: center; margin-bottom: 10px"/>
 
 As global COVID-19 health restrictions begin to relax in many countries, public spaces now seem to be home to comically long lineups. Restaurants, washrooms, and even essential businesses are now hardly accessible due to long wait times and lowered indoor capacities.
 
