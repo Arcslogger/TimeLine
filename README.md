@@ -14,6 +14,5 @@ Our data is also dynamically updated to show current data as time passes, meanin
 
 This project was developed in 48 hours for Explore Hack 2021 by 4 graduating high school students: Wilbur Zhang, Ivan Yu, Joshua Kwong, and Nicholas Lin.
 
-# Learn More:
-### [Watch Demo](https://www.youtube.com/watch?v=RT1EIRt_i2U)
-### [Read Devpost Description](https://devpost.com/software/timeline-qv2a60)
+## [Watch Demo](https://www.youtube.com/watch?v=RT1EIRt_i2U)
+## [Read Devpost Description](https://devpost.com/software/timeline-qv2a60)
