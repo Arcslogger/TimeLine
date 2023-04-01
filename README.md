@@ -12,7 +12,7 @@ Though initially inspired by COVID-19 and physical distancing, our app is design
 
 Our data is also dynamically updated to show current data as time passes, meaning TimeLine will never lose its relevance.
 
-This project was developed in 48 hours for Explore Hack 2021 by 4 graduating high school students: Wilbur Zhang, Ivan Yu, Joshua Kwong, and Nicholas Lin.
+This project was developed in 48 hours for Explore Hack 2021 by 4 graduating high school students: [Wilbur Zhang](https://github.com/arcslogger), [Ivan Yu](https://github.com/IvanYu327), [Joshua Kwong](https://github.com/JoshuaKwongTy), and [Nicholas Lin](https://github.com/NicholasLin718).
 
 # Learn More:
 [Watch Demo](https://www.youtube.com/watch?v=RT1EIRt_i2U) |
