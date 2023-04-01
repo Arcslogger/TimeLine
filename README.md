@@ -10,7 +10,7 @@ TimeLine takes crowd-sourced foot traffic data and specifically filters out attr
 
 Though initially inspired by COVID-19 and physical distancing, our app is designed to have lasting impacts far into the future. TimeLine adds another dimension to trip planning, where adventures are also planned around local foot traffic and crowds. We hope to inspire users to explore new, local businesses while making lines a permanent thing of the past. 
 
-Our data is also dynamically updated to show current data as time passes, meaning TimeLine will never lose its relevance.
+Our data is also dynamically updated to show current data as time passes, meaning TimeLine will never lose its relevance. 🕰️
 
 This project was developed in 48 hours for Explore Hack 2021 by 4 graduating high school students: [Wilbur Zhang](https://wilburzhang.com), [Ivan Yu](https://github.com/IvanYu327), [Joshua Kwong](https://github.com/JoshuaKwongTy), and [Nicholas Lin](https://github.com/NicholasLin718).
 
